@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowCamera : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
-    [SerializeField] Transform target;
     // Start is called before the first frame update
     void Start()
     {
@@ -12,8 +11,8 @@ public class FollowCamera : MonoBehaviour
     }
 
     // Update is called once per frame
-    void LateUpdate()
+    void Update()
     {
-        transform.position = target.position;
+        
     }
 }

@@ -18,11 +18,11 @@ public class Mover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0))
-        {
+        //if (Input.GetMouseButton(0))
+        //{
             
-            MoveToCursor();
-        }
+        //    MoveToCursor();
+        //}
         UpdateAnimator();
         
         
@@ -43,8 +43,13 @@ public class Mover : MonoBehaviour
         bool hasHit = Physics.Raycast(ray, out hit); 
         if (hasHit)
         {
-            GetComponent<NavMeshAgent>().destination = hit.point;
+            MoveTo(hit.point);
         }
-        
+
+    }
+
+    private void MoveTo(Vector3 destination)
+    {
+        GetComponent<NavMeshAgent>().destination = destination;
     }
 }
