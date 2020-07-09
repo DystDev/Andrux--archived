@@ -8,7 +8,7 @@ namespace RPG.Combat
     {
 
 
-        public void Attack()
+        public void Attack(CombatTarget target)
         {
             print("You thin, you smart. Say something stupid only!");
         }
