@@ -1225,24 +1225,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 517942055}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1674964489 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7672099204330002316, guid: ba10b9bfeea97914e92a936280995f54,
-    type: 3}
-  m_PrefabInstance: {fileID: 1742666001610353752}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1674964490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674964489}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 948f4697a1e642144a4a9666a876e5dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1791195641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1453,22 +1435,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 304554518, guid: ba10b9bfeea97914e92a936280995f54, type: 3}
-      propertyPath: alecAvatar
-      value: 
-      objectReference: {fileID: 9000000, guid: bf78e1060cb415b4f8f6366705143b85, type: 3}
-    - target: {fileID: 304554518, guid: ba10b9bfeea97914e92a936280995f54, type: 3}
-      propertyPath: charlieAvatar
-      value: 
-      objectReference: {fileID: 9000000, guid: 5176701453a6f5d419384e37da99eb82, type: 3}
-    - target: {fileID: 304554518, guid: ba10b9bfeea97914e92a936280995f54, type: 3}
-      propertyPath: derekAvatar
-      value: 
-      objectReference: {fileID: 9000000, guid: 6dfd4b7c7b6001847b10e14e4e9abc36, type: 3}
-    - target: {fileID: 304554518, guid: ba10b9bfeea97914e92a936280995f54, type: 3}
-      propertyPath: tillyAvatar
-      value: 
-      objectReference: {fileID: 9000000, guid: 5c86bf2227b6a604eb233d48d5564252, type: 3}
     - target: {fileID: 7672099204330002316, guid: ba10b9bfeea97914e92a936280995f54,
         type: 3}
       propertyPath: m_Name

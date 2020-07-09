@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 namespace RPG.Core
 {
     public class FollowCamera : MonoBehaviour
@@ -11,6 +10,8 @@ namespace RPG.Core
         void LateUpdate()
         {
             transform.position = target.position;
+           
         }
+
     }
 }

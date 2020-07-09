@@ -10,13 +10,6 @@ namespace RPG.Movement
     {
 
 
-
-        void Start()
-        {
-
-
-        }
-
         // Update is called once per frame
         void Update()
         {
